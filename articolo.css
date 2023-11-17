@@ -6,21 +6,15 @@ body {
   display: flex;
   gap: 20px;
   flex-wrap: wrap-reverse;
+  background-color: #fef7e2;
 }
-
-/* .imgHoney img {
-    object-fit: cover;
-    
-} */
 
 .contenitore img {
   object-fit: cover;
 }
 
 .contenitore .child {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 100px;
+  flex: 1 1 100px;
 }
 
 .articolo {
