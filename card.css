@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 15%;
+  background-color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.imgCard {
+  display: contents;
+}
+
+.imgCard img {
+  width: 90%;
+  border-radius: 60px 60px 0px 0px;
+  margin-bottom: 15px;
+  height: 230px;
+  object-fit: cover;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.description h3 {
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.description p {
+  margin-top: 0px;
+}
+
+.descriptionHoney {
+  padding-top: 5px;
+  padding-right: 30px;
+}
+
+.descriptionHoney p {
+  padding-left: 10px;
+}
+
+.button {
+  width: 145px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: #ffdf7e;
+}
